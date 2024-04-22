@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url('../../fonts/Roboto-Medium.ttf') format('ttf');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background-image: url(../img/bg-home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.heading__description {
+    text-align: right;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: beige;
+    font-size: 46px;
+    padding: 20px 100px;
+}
+
+.col__heading {
+    font-size: 20px;
+    color: white;
+    font-size: 120px;
+    font-weight: 600;
+    color: white;
+}
+
+.col__link {
+    color: white;
+    font-size: 100px;
+
+}
